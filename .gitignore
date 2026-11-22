@@ -1,0 +1,92 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# IDE & Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Model Cache
+# ==============================
+.cache/
+cache/
+huggingface/
+sentence_transformers/
+
+# ==============================
+# Temporary Files
+# ==============================
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Uploaded Documents
+# ==============================
+uploads/
+uploaded_files/
+
+# Ignore PDFs by default
+*.pdf
+
+# Allow sample PDFs if you intentionally add them
+!sample_documents/*.pdf
+
+# ==============================
+# Build & Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
