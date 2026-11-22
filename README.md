@@ -15,6 +15,8 @@ Upload a PDF, ask questions in natural language, and receive context-aware answe
 ![Embeddings](https://img.shields.io/badge/Embeddings-MiniLM--L6--v2-171717)
 ![License](https://img.shields.io/badge/License-MIT-171717)
 
+---
+
 <img src="assets/home.png" alt="Home screen" width="900"/>
 
 </div>
